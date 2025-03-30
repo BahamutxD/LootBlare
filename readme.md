@@ -1,6 +1,6 @@
-# Loot Blare 1.1.9
+# Loot Blare 2.0.0
 
-Loot Blare is a World of Warcraft addon originally designed **Turtle WoW**. The original version of this addon can be found [here](https://github.com/MarcelineVQ/LootBlare)
+Loot Blare is a World of Warcraft addon originally designed **Turtle WoW**. The original version of this addon can be found [here](https://github.com/MarcelineVQ/LootBlare). This version of Loot Blare was completely updated by and for the **Conquistadores** guild.
 
 This addon displays a pop-up frame showing items and rolls when a single uncommon+ item is linked in Raid Warning. Rolls are automatically sorted by type to streamline the master looter's workflow.
 
@@ -34,6 +34,9 @@ Every time the master looter changes, the new master looter announces the roll t
 - **Auto-Close when using a spell**: After the time ends, close the frame when using a spell. Toggle this feature on or off with:
   `/lootblare hideWhenUsingSpell on/off` or `/lb hideWhenUsingSpell on/off`
 
+- **Handle SR+ from CSV**:
+WIP
+
 - **Configuration Commands**: For a full list of configuration options, type:  
   `/help`
 
@@ -41,7 +44,7 @@ Every time the master looter changes, the new master looter announces the roll t
 
 ### The (moveable) frame in game:
 
-![LootBlare Frame](./lootblareframe.png)
+![LootBlare Frame](./assets/lootblareframe.png)
 
 Changelog:
 
