@@ -15,13 +15,9 @@ local function increase_po_message(player_name, increment)
     for _, msg in ipairs(list) do
       if msg.roller == player_name then
         -- Initialize plus_one if it doesn't exist
-        if msg.plus_one == nil then
-          msg.plus_one = 0
-        end
+        if msg.plus_one == nil then msg.plus_one = 0 end
         msg.plus_one = msg.plus_one + increment
-        if msg.plus_one < 0 then
-          msg.plus_one = 0
-        end
+        if msg.plus_one < 0 then msg.plus_one = 0 end
         return true
       end
     end

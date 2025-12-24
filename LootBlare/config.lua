@@ -60,7 +60,7 @@ config = {
     [2] = {hex = "ff1eff00", r = 0.12, g = 1.00, b = 0.00}, -- Uncommon (Green)
     [3] = {hex = "ff0070dd", r = 0.00, g = 0.44, b = 0.87}, -- Rare (Blue)
     [4] = {hex = "ffa335ee", r = 0.64, g = 0.21, b = 0.93}, -- Epic (Purple)
-    [5] = {hex = "ffff8000", r = 1.00, g = 0.50, b = 0.00}  -- Legendary (Orange)
+    [5] = {hex = "ffff8000", r = 1.00, g = 0.50, b = 0.00} -- Legendary (Orange)
   },
   FONT_COLOR_CODE_CLOSE = "|r"
 }
